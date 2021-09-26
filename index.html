@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ecosistemas de México</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+
+  <body>
+<!-- pagina de inicio -->
+<div data-role="page" id="inicio">
+	<div data-role="content">
+		<div class="intro">
+			<img src="img/logo.png" alt="Ecosistemas de México">
+			<h1>Bienvenidos</h1>
+			<p>Bienvenidos a esta pagina en la que se tiene contenido de los principales ecosistemas de México como lo es su flora, fauna, ubicacion, imagenes de cada ecosistema, etc. Ademas de contar con informacion sobre asociaciones que protegen el ambiente.</p>
+		</div>
+		<div id="menu-inicio">
+			<a href="#nosotros" data-role="button">Nosotros</a>
+				<a href="#ecosistemas" data-role="button">Ecosistemas</a>
+					<a href="#contacto" data-role="button">Contacto</a>
+		</div>
+		<div class="footer-interno">
+			<p>2019-DERECHOS RESERVADOS - TECNICO EN PROGRAMACION GPO.
+			 4JM CENTRO DE BACHILLERATO TECNOLOGICO AGROPECUARIO NO.35 "LEONA VICARIO"</p>
+		</div>
+	</div>
+</div>
+<!-- fin de la pagina de inicio -->
+
+<!-- pagina de ecosistemas -->
+<div data-role="page" id="ecosistemas">
+<div data-role="header">
+	<img src="img/logo.png" width="100%" alt="Ecosistemas de México">
+	<nav data-role="navbar">
+		<ul>
+			<a href="#inicio" data-role="button">Home</a>
+			<a href="#nosotros" data-role="button">Nosotros</a>
+			<a href="#ecosistemas" data-role="button">Ecosistemas</a>
+			<a href="#contacto" data-role="button">Contacto</a>
+		</ul>
+	</nav>
+</div>
+
+<div data-role="content">
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#coral" data-rel="dialog" data-transition="flip">
+			<img src="img/arrecifes.jpg" height="100%">
+<h2>Arrecifes de Coral</h2>
+<p>Los Arrecifes de coral se encuentran.......</p>
+		</a>
+		</li>
+	</ul>
+
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#manglares" data-rel="dialog" data-transition="flip">
+			<img src="img/manglares.jpg" height="100%">
+<h2>Manglares</h2>
+<p>Los manglares se encuentran.......</p>
+		</a>
+		</li>
+	</ul>
+
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#algas" data-rel="dialog" data-transition="flip">
+			<img src="img/bosque-algas.jpg" height="100%">
+<h2>Bosque de Algas Gigantes</h2>
+<p>Los Bosques de algas gigantes se encuentran.......</p>
+		</a>
+		</li>
+	</ul>
+
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#pastizales" data-rel="dialog" data-transition="flip">
+			<img src="img/pastizales.jpg" height="100%">
+<h2>Pastizales</h2>
+<p>Los pastizales se encuentran.......</p>
+		</a>
+		</li>
+	</ul>
+
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#seca" data-rel="dialog" data-transition="flip">
+			<img src="img/selva-seca.jpg" height="100%">
+<h2>Selva Seca</h2>
+<p>Las Selvas secas se encuentran.......</p>
+		</a>
+		</li>
+	</ul>
+
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#shumeda" data-rel="dialog" data-transition="flip">
+			<img src="img/selva-humeda.jpg" height="100%">
+<h2>Selva Humeda</h2>
+<p>Las Selvas Humedas se encuentran.......</p>
+		</a>
+		</li>
+	</ul>
+
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#bosquetemplado" data-rel="dialog" data-transition="flip">
+			<img src="img/bosque-templado.jpg" height="100%">
+<h2>Bosque Templado</h2>
+<p>Los bosques templados se encuentran.......</p>
+		</a>
+		</li>
+	</ul>
+
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#bosquenublado" data-rel="dialog" data-transition="flip">
+			<img src="img/bosque-nublado.jpg" height="100%">
+<h2>Bosque Nublado</h2>
+<p>Los bosques nublados se encuentran.......</p>
+		</a>
+		</li>
+	</ul>
+
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#lagunas" data-rel="dialog" data-transition="flip">
+			<img src="img/laguna-costera.jpg" height="100%">
+<h2>Lagunas Costeras</h2>
+<p>Las Lagunas costeras encuentran.......</p>
+		</a>
+		</li>
+	</ul>
+
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#matorrales" data-rel="dialog" data-transition="flip">
+			<img src="img/matorrales.jpg" height="100%">
+<h2>Matorrales</h2>
+<p>Los Matorrales se encuentran.......</p>
+		</a>
+		</li>
+	</ul>
+</div>
+</div>
+
+<!-- inicio de ventanas de ecosistemas -->
+<div data-role="page" id="coral">
+<div data-role="header">
+	<h1>Arrecifes de Coral</h1>
+</div>
+<div data-role="content">
+	<img src="img/arrecifes.jpg" alt="arrecifes" width="100%">
+	<h2>Descripcion</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Clima</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Flora</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Fauna</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Distribucion geografica</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+</div>
+<a href="#ecosistemas" data-role="button" data-rel="back">Cerrar</a>
+</div>
+<div data-role="page" id="manglares">
+<div data-role="header">
+	<h1>Manglares</h1>
+</div>
+<div data-role="content">
+	<img src="img/manglares.jpg" alt="manglares" width="100%">
+	<h2>Descripcion</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Clima</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Flora</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Fauna</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Distribucion geografica</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+</div>
+<a href="#ecosistemas" data-role="button" data-rel="back">Cerrar</a>
+</div>
+<div data-role="page" id="algas">
+<div data-role="header">
+	<h1>Bosques de Algas Gigantes</h1>
+</div>
+<div data-role="content">
+	<img src="img/bosque-algas.jpg" alt="algas" width="100%">
+	<h2>Descripcion</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Clima</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Flora</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Fauna</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Distribucion geografica</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+</div>
+<a href="#ecosistemas" data-role="button" data-rel="back">Cerrar</a>
+</div>
+<div data-role="page" id="pastizales">
+<div data-role="header">
+	<h1>Pastizales</h1>
+</div>
+<div data-role="content">
+	<img src="img/pastizales.jpg" alt="pastizales" width="100%">
+	<h2>Descripcion</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Clima</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Flora</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Fauna</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Distribucion geografica</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+</div>
+<a href="#ecosistemas" data-role="button" data-rel="back">Cerrar</a>
+</div>
+<div data-role="page" id="seca">
+<div data-role="header">
+	<h1>Selva Seca</h1>
+</div>
+<div data-role="content">
+	<img src="img/selva-seca.jpg" alt="seca" width="100%">
+	<h2>Descripcion</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Clima</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Flora</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Fauna</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Distribucion geografica</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+</div>
+<a href="#ecosistemas" data-role="button" data-rel="back">Cerrar</a>
+</div>
+<div data-role="page" id="shumeda">
+<div data-role="header">
+	<h1>Selva Humeda</h1>
+</div>
+<div data-role="content">
+	<img src="img/selva-humeda.jpg" alt="selva-humeda" width="100%">
+	<h2>Descripcion</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Clima</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Flora</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Fauna</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Distribucion geografica</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+</div>
+<a href="#ecosistemas" data-role="button" data-rel="back">Cerrar</a>
+</div>
+<div data-role="page" id="bosquetemplado">
+<div data-role="header">
+	<h1>Bosque Templado</h1>
+</div>
+<div data-role="content">
+	<img src="img/bosque-templado.jpg" alt="bosque-templado" width="100%">
+	<h2>Descripcion</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Clima</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Flora</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Fauna</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Distribucion geografica</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+</div>
+<a href="#ecosistemas" data-role="button" data-rel="back">Cerrar</a>
+</div>
+<div data-role="page" id="bosquenublado">
+<div data-role="header">
+	<h1>Bosque Nublado</h1>
+</div>
+<div data-role="content">
+	<img src="img/bosque-nublado.jpg" alt="bosque-nublado" width="100%">
+	<h2>Descripcion</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Clima</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Flora</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Fauna</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Distribucion geografica</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+</div>
+<a href="#ecosistemas" data-role="button" data-rel="back">Cerrar</a>
+</div>
+<div data-role="page" id="lagunas">
+<div data-role="header">
+	<h1>Lagunas Costera</h1>
+</div>
+<div data-role="content">
+	<img src="img/laguna-costera.jpg" alt="laguna-costera" width="100%">
+	<h2>Descripcion</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Clima</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Flora</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Fauna</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Distribucion geografica</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+</div>
+<a href="#ecosistemas" data-role="button" data-rel="back">Cerrar</a>
+</div>
+<div data-role="page" id="matorrales">
+<div data-role="header">
+	<h1>Matorrales</h1>
+</div>
+<div data-role="content">
+	<img src="img/matorrales.jpg" alt="matorrales" width="100%">
+	<h2>Descripcion</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Clima</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Flora</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Fauna</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+	<h2>Distribucion geografica</h2>
+	<p>Lorem ipsum dolor sit amet consectetur adipiscing elit placerat porta dui aenean, imperdiet semper interdum eros nostra sociis sagittis turpis nisl erat, sociosqu lobortis taciti nullam venenatis laoreet felis inceptos varius neque. A malesuada elementum fringilla diam penatibus faucibus nam, nulla venenatis porttitor ultricies ac platea turpis dignissim, neque etiam himenaeos dictum posuere consequat. Ligula blandit dui odio per magnis arcu, dictum vel porta dis vehicula maecenas, fames netus augue class nec</p>
+</div>
+<a href="#ecosistemas" data-role="button" data-rel="back">Cerrar</a>
+</div>
+
+</body>
+</html>

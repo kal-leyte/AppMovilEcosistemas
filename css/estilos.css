@@ -1,0 +1,101 @@
+#inicio, #ecosistemas, #nosotros, #contacto{
+  background-image: linear-gradient(to bottom, #f1fcf1, #c6f8c4, #9af934, #69ec5f, #02e301);
+  text-align: center;
+}
+
+.ui-page-theme-a .ui-bar-inherit {
+  background-image: linear-gradient(to bottom, #f1fcf1, #c6f8c4, #9af934, #69ec5f, #02e301);
+  text-align: center;
+}
+
+.ui-page-theme-a a:hover {
+  background-image: linear-gradient(to bottom, #f1fcf1, #c6f8c4, #9af934, #69ec5f, #02e301);
+  text-align: center;
+}
+
+.ui-page-theme-a a:visited {
+  background-image: linear-gradient(to bottom, #f1fcf1, #c6f8c4, #9af934, #69ec5f, #02e301);
+  text-align: center;
+}
+
+.intro{margin:10px 0}
+
+.intro h1{
+  font-family: 'Anton', sans-serif;
+  font-size: 3.5em;
+text-transform: uppercase;
+letter-spacing: 3px;
+padding: 0;
+}
+
+.intro p{
+padding: 15px 10px; text-align: center;
+}
+
+.menu-inicio{padding: 10px 0;}
+
+.menu-inicio a{
+  font-family: 'Anton', sans-serif;
+  font-size:0 1em;
+  text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+.footer-interno p{
+  text-transform: uppercase;
+  font-size:0 1em;
+  margin-top: 30px;
+}
+
+.ui-body-a{
+    background-image: linear-gradient(to top, #f1fcf1, #e9fce8, #e2fcdf, #dbfcd5, #d4fbcb);
+}
+
+.titUpper{
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.justificado{
+  text-align: justify
+}
+
+.detalle h2{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4em;
+  letter-spacing: 2px;
+}
+
+.detalle{
+  text-align: center;
+}
+
+.imgCircular{
+ width: 180px;
+ height: 180px;
+ border-radius: 50%;
+ border-bottom: 5px solid #02e301;
+ border-left: 1px solid #02e301;
+ border-right: 1px solid #02e301;
+ border-top: none;
+ padding: 2px;
+ -webkit-box-shadow: 4px 7px 6px -3px rgba(0, 0, 0, 0.55);
+ -moz-box-shadow: 4px 7px 6px -3px rgba(0, 0, 0, 0.55);
+ box-shadow: 4px 7px 6px -3px rgba(0, 0, 0, 0.55);
+}
+
+.center {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contacto-titulo h2{
+font-family: 'Anton', sans-serif;
+font-size: 2.5em;
+text-transform: uppercase;
+letter-spacing: 3px;
+padding: 0;
+}
